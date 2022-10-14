@@ -8,9 +8,9 @@ public class Simple {
     public static void main(String args[]) throws Exception{
 
         String sname;
-         int age;
-             Connection connect=DriverManager.getConnection("Jdbc:mysql://localhost:3306/kbc","root","12345");
-     Statement statement=connect.createStatement();
+        int age;
+        Connection connect=DriverManager.getConnection("Jdbc:mysql://localhost:3306/kbc","root","12345");
+        Statement statement=connect.createStatement();
      
         try{
         Simple x=new Simple(); 
@@ -141,7 +141,7 @@ System.out.println("\t\t     ");
           Thread.sleep(500);
           System.out.print("o");
         
-                    Thread.sleep(2500);
+          Thread.sleep(2500);
                     
           for(int clr=1;clr<=25;clr++){
           System.out.println("");}
@@ -150,7 +150,7 @@ System.out.println("\t\t     ");
           System.out.println("++++++++++++++++++++++++++");
           System.out.println("+ 1.Play                 +");
           System.out.println("++++++++++++++++++++++++++");
-           for(int clr=1;clr<=25;clr++){
+          for(int clr=1;clr<=25;clr++){
           System.out.println("");}          
           Thread.sleep(1100);
        
@@ -160,7 +160,7 @@ System.out.println("\t\t     ");
           System.out.println("+ 1.Play                 +");
           System.out.println("+ 2.Practise zone        +");
           System.out.println("++++++++++++++++++++++++++");
-             for(int clr=1;clr<=24;clr++){
+          for(int clr=1;clr<=24;clr++){
           System.out.println("");} 
                     Thread.sleep(1100);
            for(int clr=1;clr<=25;clr++){
